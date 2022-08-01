@@ -1,0 +1,50 @@
+html, body {
+    background-color: #fff !important;
+    font-family: Aeroport;
+    margin-top: 0;
+}
+
+.blackfidaysale {
+    height: 70px;
+    width: auto;
+    background-color: black;
+    background-image: url(/img/imgsale.svg);
+}
+
+.salelabels {
+   width: auto;
+   height: auto;
+}
+
+
+p {
+
+    color: white;
+    font-size: 24px;
+    font-family: AeroportBold;
+    line-height: 32px;
+    padding-left: 41px;
+    margin-top: 17px;
+}
+
+.pblackfidaysale {
+    display: inline-block;
+    position: relative; /* указывать обязательно */
+    width: 30%;
+   /* height: 300px;  высота всего блока */
+    margin: 1%;
+  }
+  .close-block {
+    display: block;
+    position: relative;
+    top: 25px;
+    right: -8px;
+    width: 33px;
+    height: 33px;
+    background-image: url(/img/closebtn.svg);
+    cursor: pointer;
+  }
+  .pop-block p {
+    width: 100%;
+    height: auto;
+  }
